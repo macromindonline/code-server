@@ -38,3 +38,4 @@ RUN ln -s /etc/php/7.4/mods-available/mcrypt.ini /etc/php/7.4/cli/conf.d/30-mcry
 RUN pecl install mongodb
 RUN echo "extension=mongodb.so" > /etc/php/7.4/mods-available/mongodb.ini
 RUN ln -s /etc/php/7.4/mods-available/mongodb.ini /etc/php/7.4/cli/conf.d/30-mongodb.ini
+RUN update-alternatives --set php /usr/bin/php7.4
