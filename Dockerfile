@@ -28,6 +28,7 @@ RUN apt install php7.4-intl -y
 RUN apt install php7.4-gd -y
 RUN apt install php7.4-imap -y
 RUN apt install php7.4-xml -y
+RUN apt install php7.4-zip -y
 RUN apt install composer -y
 RUN apt install nodejs -y
 RUN apt install npm -y
